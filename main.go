@@ -18,7 +18,7 @@ type Season struct {
 }
 
 func main() {
-	file, err := os.Open("theoffice.json")
+	file, err := os.Open("tvShows/the-office.json")
 	if err != nil {
 		fmt.Println("error in open file")
 	}
